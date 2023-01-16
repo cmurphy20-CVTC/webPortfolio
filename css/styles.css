@@ -1,14 +1,13 @@
 html {
   background-color: #fefefe;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .container-fluid {
   color: #1a1c22;
   font-family: sans-serif;
-  min-height: 100vh;
-  min-width: 100vw;
   text-align: center;
-  
 }
 
 
@@ -35,39 +34,137 @@ html {
   text-decoration: none;
 }
 
-.nav-link:hover {
-  color: black;
-}
-
 #navBtn {
   border-color: #26D0CE;
-  border-radius: 40px;
 }
 
 #navBtnA {
-  color: #1a1c22;
-  font-size: 1.5em;
+  color: #26D0CE;
+  font-size: 25px;
 }
 
 #navBtnA:hover {
-  
+  background-color: #26D0CE;
+  border-color: #fff;
   color: #fefefe;
 }
 
+#navBtn:hover {
+  background-color: #26D0CE;
+  border-color: #26D0CE; 
+}
+
+
+/* Introduction */
 .intro {
-  
   color: black;
   height: 40vh;
-  width: 50vw;
+  width: 100vw;
   margin: 0 auto;
+  margin-bottom: 15%;
   text-align: center;
 }
 
-.introContent {
-  margin-top: 15%;
+.introDiv{
+  margin-top: 2%;
 }
 
+#logoPerson {
+  border-radius: 40px;
+  height: 25vh;
+  margin: 2.5%;  
+  width: 15vw;
+}
 
+.introBtns {
+  display: flex;
+  justify-content: center;
+  margin: 2.5%;
+}
+
+.introBtns > button {
+  font-size: 25px;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+}
+
+#hireMeBtn {
+  background-color: #26D0CE;
+  border-color: #26D0CE;
+}
+
+#hireMeBtn > a {
+  color: #fefefe;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#hireMeBtn:hover {
+  background-color: #fefefe;
+  border-color: #26D0CE;
+}
+
+#hireMeBtn > a:hover {
+  color: #26D0CE;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#resumeBtn {
+  border-color: #26D0CE;
+}
+
+#resumeBtn > a {
+  color: #26D0CE;
+}
+
+#resumeBtn:hover {
+  background-color: #26D0CE;
+  border-color: #26D0CE;
+}
+
+#resumeBtn > a:hover {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+.introContent {
+  background: linear-gradient(90deg, rgba(26,41,128,1) 0%, rgba(38,208,206,1) 35%);
+  background-color: #26D0CE;
+  color: #fefefe;
+  font-size: 25px;
+  height: auto;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  padding: 5%;
+  text-align: center;
+  width: 100vw;
+}
+
+#introContentP {
+  margin-top: 2%;
+  text-align: justify;
+}
+
+/* Projects */
+.projects {
+  height: auto;
+  margin-top: 15%;
+  width: 100vw;
+}
+
+.projectsTitle {
+  margin: 5%;
+  margin-top: 2.5%;
+}
+
+.projectsTitle > h1 {
+  margin: 2%;
+}
+
+#titleA {
+  text-decoration: none;
+}
 
 .projectBtns {
   display: inline-block;

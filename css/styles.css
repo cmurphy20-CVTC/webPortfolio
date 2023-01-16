@@ -1,15 +1,70 @@
-body {
-  background-color: black;
+html {
+  background-color: #fefefe;
+}
+
+.container-fluid {
+  color: #1a1c22;
+  font-family: sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  text-align: center;
+  
+}
+
+
+/* Navigation */
+
+.navbar {
+  font-size: 2em;
+  margin-top: 2.5%;
+  width: 95vw;
+}
+
+.navbar-brand {
+  height: 10%;
+  width: 15%;
+}
+
+#brandImg {
+  height: 10vh;
+  width: 5vw;
+}
+
+.nav-link {
+  color: #1a1c22;
+  text-decoration: none;
+}
+
+.nav-link:hover {
   color: black;
 }
 
+#navBtn {
+  border-color: #26D0CE;
+  border-radius: 40px;
+}
+
+#navBtnA {
+  color: #1a1c22;
+  font-size: 1.5em;
+}
+
+#navBtnA:hover {
+  
+  color: #fefefe;
+}
+
 .intro {
-  background-color: #fefefe;
+  
   color: black;
-  height: 100vh;
+  height: 40vh;
   width: 50vw;
   margin: 0 auto;
   text-align: center;
+}
+
+.introContent {
+  margin-top: 15%;
 }
 
 

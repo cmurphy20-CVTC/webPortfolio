@@ -173,25 +173,8 @@ html {
   display: inline-block;
 }
 
-.projectOdd {
-  
-  margin: 3%;
-  
-}
-
-.oddContent {
-
-}
-
-.projectEven {
-  
-  
-  
-  
-}
-
-.evenContent {
-  
+.projectOdd { 
+  margin: 3%; 
 }
 
 #projectImg {
@@ -204,10 +187,9 @@ html {
   text-align: justify;
 }
 
-.technologies {
-  
-  
-}
+/* Technologies */
+
+
 
 #techTitle {
   color: #1a1c22;
@@ -234,3 +216,21 @@ html {
   width: 175px;
 }
 
+/* Footer */
+
+.footer {
+  text-align: center;
+}
+
+.footerTitle {
+  margin-bottom: 2%;
+}
+
+.social-icon {
+  color: #26D0CE;
+  padding: 2%;
+}
+
+.social-icon:hover {
+  color: #1a2980;
+}

@@ -234,3 +234,9 @@ html {
 .social-icon:hover {
   color: #1a2980;
 }
+
+/* Contact Form */
+
+.contact {
+  margin: 0 auto;
+}

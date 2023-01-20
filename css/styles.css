@@ -1,7 +1,7 @@
 html {
   background-color: #fefefe;
-  min-height: 100%;
-  min-width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .container-fluid {
@@ -9,7 +9,6 @@ html {
   font-family: sans-serif;
   text-align: center;
 }
-
 
 /* Navigation */
 
@@ -56,12 +55,13 @@ html {
 
 
 /* Introduction */
+
 .intro {
   color: black;
   height: 40vh;
   width: 100vw;
   margin: 0 auto;
-  margin-bottom: 15%;
+  margin-bottom: 25%;
   text-align: center;
 }
 
@@ -83,7 +83,6 @@ html {
 }
 
 .introBtns button {
-  
   margin-right: 1.5%;
   margin-left: 1.5%;
 }
@@ -150,8 +149,9 @@ html {
 
 /* Projects */
 .projects {
+  
   height: auto;
-  margin-top: 20%;
+  margin-top: 15%;
   width: 100%;
 }
 
@@ -178,9 +178,9 @@ html {
 }
 
 #projectImg {
-  height: 50vh;
+  height: 100%;
   margin-right: 0px;
-  width: 45vw;
+  width: 100%;
 }
 
 .projectP {
@@ -188,8 +188,6 @@ html {
 }
 
 /* Technologies */
-
-
 
 #techTitle {
   color: #1a1c22;
@@ -240,3 +238,20 @@ html {
 .contact {
   margin: 0 auto;
 }
+
+@media (max-width: 576px) { 
+  .projects {
+    margin-top: 675px;
+  }
+}
+
+@media (min-width: 768px) {  
+  .projects {
+  margin-top: 250px;
+  } 
+}
+
+
+
+
+

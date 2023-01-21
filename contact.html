@@ -18,26 +18,35 @@
 <body>
 
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navContact">
 
-      <a class="navbar-brand" href="#"><img id="brandImg" src="img/cm_light.png" alt=""></a>
+      <a class="navbar-brand" href="index.html"><img id="brandImg" src="img/cm_light.png" alt=""></a>
 
       <div id="navbarContent" class="collapse navbar-collapse">
         <ul class="nav nav-pills nav fill ml-auto">
           <li class="nav-item">    
-            <button id="navBtn" class="btn btn-outline-primary"><a id="navBtnA" class="nav-link" href="index.html" target="_blank">Back</a></button>
+            <button id="navBtn" class="btn btn-outline-primary"><a id="navBtnA" class="nav-link" href="index.html">Back</a></button>
           </li>
         </ul>
       </div>
     </nav>
 
+
   <div class="contact container-fluid">
+
+    <div class="row justify-content-center mt-4">
+
+      <div>
+        <img id="logoPerson" class="contactLogo" src="img/person.png" alt="">
+      </div>
+
+    </div>
 
     <div class="row">
 
       <div class="col">
 
-        <h1>Contact Me</h1>
+        <h1 id="contactTitle">Thanks for taking the time to reach out.</h1>
 
       </div>
       
@@ -47,7 +56,7 @@
 
     name="contact"
 
-    action="/success.html"
+    action="success.html"
 
     method="POST"
 
@@ -57,13 +66,13 @@
 
     <div class="row">
 
-      <div class="col-lg-3 offset-3">
+      <div class="col-lg-10 offset-2 mx-auto">
 
         <p>
 
-          <label class="col-form-label">
+          <label class="col-form-label contactLabel">
 
-            Name: <input class="form-control" type="text" name="name" placeholder="Name"/>
+            Name <input id="formInput" class="form-control" type="text" name="name"/>
 
           </label>
 
@@ -71,13 +80,17 @@
 
       </div>
 
-      <div class="col-lg-3 justify-content-start">
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-10 offset-2 mx-auto">
 
         <p>
 
-          <label class="col-form-label">
+          <label class="col-form-label contactLabel">
 
-            Email: <input class="form-control" type="text" name="email"  placeholder="Email"/>
+            Email <input id="formInput" class="form-control" type="text" name="email"/>
 
           </label>
 
@@ -90,13 +103,13 @@
 
     <div class="row">
       
-      <div class="col">
+      <div class="col-lg-10 offset-2 mx-auto">
 
         <p>
 
-          <label class="col-form-label">
+          <label class="col-form-label contactLabel">
 
-            <textarea class="form-control"  name="message" placeholder="Message"></textarea>
+            Message <textarea id="formMessage" class="form-control"  name="message" rows="15" cols="50"></textarea>
 
           </label>
 
@@ -106,7 +119,7 @@
 
     </div>
     
-    <div data-netlify-recaptcha="true"></div>
+    <div class="row justify-content-center mx-auto" data-netlify-recaptcha="true"></div>
 
     <div class="row">
 
@@ -114,8 +127,8 @@
 
         <p>
 
-          <button id="outlineBtn" class="btn btn-outline-primary" type="submit">
-            Send
+          <button id="outlineBtn" class="btn btn-outline-primary contactBtn" type="submit">
+            Submit
           </button>
 
         </p>

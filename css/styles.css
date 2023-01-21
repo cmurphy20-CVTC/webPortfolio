@@ -113,8 +113,10 @@ html {
 }
 
 #outlineBtn {
+  color: #26D0CE;
   border-color: #26D0CE;
   font-size: 25px;
+  text-decoration: none;
 }
 
 #outlineBtn > a {
@@ -122,6 +124,7 @@ html {
 }
 
 #outlineBtn:hover {
+  color: #fefefe;
   background-color: #26D0CE;
   border-color: #26D0CE;
 }
@@ -151,7 +154,6 @@ html {
 
 /* Projects */
 .projects {
-  
   height: auto;
   margin-top: 15%;
   width: 100%;
@@ -237,9 +239,49 @@ html {
 
 /* Contact Form */
 
-.contact {
-  margin: 0 auto;
+.navContact {
+  border-bottom: #1a1c22 solid .75px;
 }
+
+.contactLogo {
+  height: 2.5vh;
+  width: 2.5vw;
+}
+
+.contact {
+  background-color: #fefefe;
+  margin: 0 auto;
+  
+}
+
+#contactTitle {
+  font-size: 40px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.contactLabel {
+  text-align: left;
+  width: 60%;
+}
+
+#formInput {
+  height: 7vh;
+}
+
+#formMessage {
+  width: 100%;
+}
+
+.form-control { 
+  margin-bottom: 5%;
+}
+
+.contactBtn {
+  width: 25%;
+}
+
+/* Media Queries */
 
 @media (max-width: 576px) { 
   .projects {

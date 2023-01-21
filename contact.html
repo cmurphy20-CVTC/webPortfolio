@@ -17,7 +17,19 @@
 </head>
 <body>
 
-  
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg">
+
+      <a class="navbar-brand" href="#"><img id="brandImg" src="img/cm_light.png" alt=""></a>
+
+      <div id="navbarContent" class="collapse navbar-collapse">
+        <ul class="nav nav-pills nav fill ml-auto">
+          <li class="nav-item">    
+            <button id="navBtn" class="btn btn-outline-primary"><a id="navBtnA" class="nav-link" href="index.html" target="_blank">Back</a></button>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
   <div class="contact container-fluid">
 
@@ -45,13 +57,13 @@
 
     <div class="row">
 
-      <div class="col-lg-6">
+      <div class="col-lg-3 offset-3">
 
         <p>
 
           <label class="col-form-label">
 
-            <input class="form-control" type="text" name="name" placeholder="Name"/>
+            Name: <input class="form-control" type="text" name="name" placeholder="Name"/>
 
           </label>
 
@@ -59,13 +71,13 @@
 
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-3 justify-content-start">
 
         <p>
 
           <label class="col-form-label">
 
-            <input class="form-control" type="text" name="email"  placeholder="Email"/>
+            Email: <input class="form-control" type="text" name="email"  placeholder="Email"/>
 
           </label>
 
@@ -102,7 +114,9 @@
 
         <p>
 
-          <button type="submit">Send</button>
+          <button id="outlineBtn" class="btn btn-outline-primary" type="submit">
+            Send
+          </button>
 
         </p>
 

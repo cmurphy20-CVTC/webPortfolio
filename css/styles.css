@@ -1,9 +1,9 @@
 
 html {
   background-color: #fefefe;
-  height: 100%;
+  max-height: 100vh;
   overflow-x: hidden;
-  width: 100%;
+  max-width: 100vw;
 }
 
 .container-fluid {
@@ -69,6 +69,7 @@ html {
 
 .introDiv{
   margin-top: 2%;
+  margin-left: 0;
 }
 
 #logoPerson {
@@ -181,6 +182,9 @@ html {
   margin: 3%; 
 }
 
+.oddContent {
+  margin-right: 0%;
+}
 #projectImg {
   height: 100%;
   margin-right: 0px;
@@ -188,6 +192,7 @@ html {
 }
 
 .projectP {
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -281,11 +286,57 @@ html {
   width: 25%;
 }
 
+/* Success Page */
+
+.success  {
+  color: #fefefe;
+  background: linear-gradient(90deg, rgba(26,41,128,1) 0%, rgba(38,208,206,1) 35%);
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+  
+  
+}
+
+.successTitle {
+  color: #fefefe;
+  margin: 5%;
+  margin-top: 5%;
+}
+
+#successContent {
+  color: #fefefe;
+  margin-bottom: 3%;
+}
+
+#successBtn {
+  background-color: #1a2980;
+  border-color: #1a2980;
+  font-size: 25px;
+  width: 5%;
+}
+
+#successBtn:hover {
+  background-color: #fefefe;
+  border-color: #fefefe;
+ }
+
+
+#successBtn > a {
+ color: #fefefe;
+}
+
+#successBtn > a:hover {
+  color: #1a2980;
+  text-decoration: none;
+ }
+
+
 /* Media Queries */
 
-@media (max-width: 576px) { 
+@media only screen and (max-width:600px) { 
   .projects {
-    margin-top: 675px;
+    margin-top: 95vh;
   }
 }
 

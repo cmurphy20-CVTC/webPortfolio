@@ -60,10 +60,10 @@ html {
 
 .intro {
   color: black;
-  height: 40vh;
+  height: auto;
   width: 100vw;
   margin: 0 auto;
-  margin-bottom: 25%;
+  margin-bottom: 2.5%;
   text-align: center;
 }
 
@@ -139,10 +139,9 @@ html {
   background: linear-gradient(90deg, rgba(26,41,128,1) 0%, rgba(38,208,206,1) 35%);
   background-color: #26D0CE;
   color: #fefefe;
-  font-size: 25px;
-  height: auto;
+  font-size: 175%;
+  min-height: auto;
   margin-top: 2.5%;
-  margin-bottom: 5%;
   padding: 5%;
   text-align: center;
   width: 100vw;
@@ -155,18 +154,18 @@ html {
 
 /* Projects */
 .projects {
-  height: auto;
-  margin-top: 15%;
+  min-height: auto;
+  margin-top: 2.5%;
   width: 100%;
+  white-space: normal;
 }
 
 .projectsTitle {
-  margin: 5%;
-  margin-top: 2.5%;
+  margin-bottom: 5%;
 }
 
 .projectsTitle > h1 {
-  margin: 2%;
+  margin-bottom: 2%;
 }
 
 #titleA {
@@ -331,20 +330,6 @@ html {
   text-decoration: none;
  }
 
-
-/* Media Queries */
-
-@media only screen and (max-width:600px) { 
-  .projects {
-    margin-top: 95vh;
-  }
-}
-
-@media (min-width: 768px) {  
-  .projects {
-  margin-top: 250px;
-  } 
-}
 
 
 

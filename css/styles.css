@@ -72,11 +72,16 @@ html {
   margin-left: 0;
 }
 
+.logo {
+  min-height: 10vh;
+  min-width: 100%;
+}
+
 #logoPerson {
   border-radius: 40px;
   height: 25vh;
   margin: 2.5%;  
-  width: 15vw;
+  min-width: 15vw;
 }
 
 .introBtns {

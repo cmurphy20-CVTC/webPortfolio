@@ -19,14 +19,18 @@
 <body>
 
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light ">
 
       <a class="navbar-brand" href="#"><img id="brandImg" src="img/cm_light.png" alt=""></a>
 
-      <div id="navbarContent" class="collapse navbar-collapse">
-        <ul class="nav nav-pills nav fill ml-auto">
-          <li class="nav-item">    
-            <button id="navBtn" class="btn btn-outline-primary"><a id="navBtnA" class="nav-link" href="contact.html" target="_blank">Say Hello</a></button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav nav-pills nav fill ml-auto">
+          <li class="nav-item active">    
+            <button id="navBtn" class="btn btn-outline-primary"><a id="navBtnA" class="nav-link" href="contact.html" target="_blank">Say Hello <span class="sr-only">(current)</span></a></button>
           </li>
         </ul>
       </div>
@@ -121,7 +125,7 @@
             </div>
           </div>
 
-          <div class="col-md-5 ">
+          <div class="col-md-5 projectImgDiv">
             <img id="projectImg" src="img/lifeNote.PNG" alt="Life Note Website">
           </div>
 
@@ -129,11 +133,11 @@
 
         <div class="row projectEven justify-content-center">
 
-          <div class="col-md-5">
+          <div class="col-md-5 order-12 projectImgDiv">
             <img id="projectImg" src="img/sFT.PNG" alt="Small Fry Thai Website">
           </div>
 
-          <div class="evenContent col-md-5">
+          <div class="evenContent col-md-5 order-1">
             <h2>Small Fry Thai</h2>
 
             <p class="projectP">
@@ -192,7 +196,7 @@
               </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-5 projectImgDiv">
               <img id="projectImg" src="img/cursorImg.PNG" alt="Cursor Adventure Webpage">
             </div>
             

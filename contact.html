@@ -18,26 +18,36 @@
 <body>
 
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navContact">
+    <nav class="navbar navbar-expand-lg navbar-light ">
 
-      <a class="navbar-brand" href="index.html"><img id="brandImg" src="img/cm_light.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img id="brandImg" src="img/cm_light.png" alt=""></a>
 
-      <div id="navbarContent" class="collapse navbar-collapse">
-        <ul class="nav nav-pills nav fill ml-auto">
-          <li class="nav-item">    
-            <button id="navBtn" class="btn btn-outline-primary"><a id="navBtnA" class="nav-link" href="index.html">Back</a></button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav nav-pills nav fill ml-auto">
+          <li class="nav-item active">    
+            <a id="navBtnA" class="nav-link" href="index.html" target="_blank">
+              <button id="navBtn" class="btn btn-outline-primary">
+                Back 
+                <span class="sr-only">
+                  (current)
+                </span>
+              </button>
+            </a>
           </li>
         </ul>
       </div>
     </nav>
 
-
   <div class="contact container-fluid">
 
     <div class="row justify-content-center mt-4">
 
-      <div>
-        <img id="logoPerson" class="contactLogo" src="img/person.png" alt="">
+      <div class="row logo justify-content-center">
+        <img id="logoPerson" src="img/person.png" alt="">
       </div>
 
     </div>

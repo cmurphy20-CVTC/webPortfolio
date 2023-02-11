@@ -231,6 +231,8 @@ html {
 
 .techDiv {
   margin-bottom: 8%;
+  height: 125px;
+  width: 125px;
 }
 
 .techItem {
@@ -243,8 +245,8 @@ html {
 }
 
 .techImg {
-  height: 175px;
-  width: 175px;
+  height: 130px;
+  width: 130px;
 }
 
 /* Footer */

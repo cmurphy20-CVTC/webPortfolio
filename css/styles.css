@@ -45,23 +45,16 @@ html {
 }
 
 #navBtn {
-  border-color: #26D0CE;
-}
-
-#navBtnA {
   color: #26D0CE;
+  border-color: #26D0CE;
   font-size: 25px;
-}
-
-#navBtnA:hover {
-  background-color: #26D0CE;
-  border-color: #fff;
-  color: #fefefe;
+  text-decoration: none;
 }
 
 #navBtn:hover {
   background-color: #26D0CE;
-  border-color: #26D0CE; 
+  border-color: #fff;
+  color: #fefefe;
 }
 
 
@@ -99,7 +92,7 @@ html {
   margin: 2.5%;
 }
 
-.introBtns button {
+.introBtns a {
   margin-right: 1.5%;
   margin-left: 1.5%;
 }
@@ -107,23 +100,15 @@ html {
 #solidBtn {
   background-color: #26D0CE;
   border-color: #26D0CE;
-  font-size: 25px;
-}
-
-#solidBtn > a {
   color: #fefefe;
   font-size: 25px;
   text-decoration: none;
 }
 
 #solidBtn:hover {
+  color: #26D0CE;
   background-color: #fefefe;
   border-color: #26D0CE;
-}
-
-#solidBtn > a:hover {
-  color: #26D0CE;
-  font-size: 25px;
   text-decoration: none;
 }
 
@@ -134,18 +119,10 @@ html {
   text-decoration: none;
 }
 
-#outlineBtn > a {
-  color: #26D0CE;
-}
-
 #outlineBtn:hover {
   color: #fefefe;
   background-color: #26D0CE;
   border-color: #26D0CE;
-}
-
-#outlineBtn > a:hover {
-  color: #fefefe;
   text-decoration: none;
 }
 
